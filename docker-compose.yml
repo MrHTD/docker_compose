@@ -20,6 +20,6 @@ services:
     image: mysql #check the mysql version you need for your project
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: lamp_db #you can change the database name here
+      MYSQL_DATABASE: mywebsite #you can change the database name here
     volumes:
       - ./mysql_data:/var/lib/mysql #this line maps the content of ./mysql_data in your pc to the /var/lib/mysql of the container
